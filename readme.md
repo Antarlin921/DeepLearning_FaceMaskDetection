@@ -1,19 +1,6 @@
-1.Activate the required environment--> conda activate <env name>
-2.Install the libraries required -->pip install -r requirement.txt
-3.dir - flask app
-        -app.py
-        -templates
-            -home.html
-4.task
- flask app
-        -app.py
-        -templates
-            -home.html
-            -welcome.html
-            -bologs.html
-5.app.py
-  templates
-  Procfile
-  requirement.txt
-  "# CatsDogsClassification" 
-"# CatsDogsClassification" 
+# FaceMaskDetection
+
+This is an app created to detect if face masks are worn properly,improperly or not at all.
+Python with CNN and HTML was used for the purpose.
+
+Input any image directory location in your harddrive to use the app.
