@@ -1,7 +1,8 @@
 # FaceMaskDetection
 
 This is an app created to detect if face masks are worn properly,improperly or not at all.
-Python with CNN and HTML was used for the purpose.
+Python with Convolutional Neural Networks  and HTML was used for this purpose.VSCode App was Used to develop this app.
+Python with Convolutional Neural Networks  and HTML was used for this purpose.VSCode App was Used to develop this app.
 
 
 How to use  the app:-
