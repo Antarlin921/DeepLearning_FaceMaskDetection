@@ -12,7 +12,7 @@ from tensorflow.keras.preprocessing import image
 # instace of an app
 app=Flask(__name__)
 # input modelfile location on your device
-model=load_model(r'C:\Users\Antarlin\Desktop\Data_Science\Deployment26July2021\FaceMask\flask_app\facemask.h5')
+model=load_model('facemask.h5')
 
 
 @app.route('/')
@@ -51,6 +51,6 @@ def contact1():
     return render_template('result.html',predicted_text=f'{output}')
 
 #  run the app  
-# if __name__=='__main__':
-#     app.run(debug=True,host="0.0.0.0",port=8080)
+if __name__=='__main__':
+    app.run(debug=True,host="0.0.0.0",port=8080)
 
